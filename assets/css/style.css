@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    margin: 50px 25px 50px 25px;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+.head{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    padding-right: 12rem;
+    padding-top: 4rem;
+    color:rgb(57, 51, 156)
+}
+
+.containerBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    padding: 0 10rem 10rem 10rem;
+    }
+
+.containerText{
+    padding: 0px 15px 150px 15px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 500px 20px 50px;
+    align-content: space-around;
+    
+}
+#input{
+    border: none;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100%;    
+}
+#input:focus{
+    outline: none;
+}
+#input::placeholder{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+}
+.mensaje{
+    font-size: 12px;
+}
+.alert{
+    width:12px;
+}
+
+#columnShow{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 10rem 15px 10rem 15px; 
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;  
+}
+.show{
+    width: 50%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+button{
+    width: 20%;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+ #btn1{
+    background-color: rgb(57, 51, 156);
+    color:white
+ }
+ #btn1:hover{
+    background-color: white;
+    color:black
+ }
+ #btn2:hover{
+    background-color: rgb(57, 51, 156);
+    color:white
+ }
+
+ #btn-cp{
+    padding: 15px;
+    margin-top: 300px
+ }
+ #btn-cp:hover{
+    background-color: rgb(57, 51, 156);
+    color: white
+ }
+/*******************************/
